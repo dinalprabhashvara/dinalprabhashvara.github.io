@@ -61,3 +61,17 @@ Unzip this download. Upload **the files themselves** (`index.html`, `script.js`,
 ## Music-free edition
 
 All background music, embedded players, streaming links, audio assets, and associated scripts/styles have been removed. The visual animations, responsive layout, and contact options remain intact.
+
+
+## Search-engine setup (free)
+
+This edition adds `sitemap.xml`, `robots.txt`, canonical URL, social preview image, and Person/Organization structured data.
+
+1. Deploy all contents of this folder to the root of the GitHub repository `dinalprabhashvara.github.io`.
+2. Confirm these URLs work in a browser: `https://dinalprabhashvara.github.io/`, `/sitemap.xml`, and `/robots.txt`.
+3. Go to Google Search Console and add a **URL prefix** property: `https://dinalprabhashvara.github.io/`.
+4. Verify ownership using the HTML-file method. Upload Google's uniquely named HTML verification file at repository root and wait for GitHub Pages to deploy it; then click Verify. The Google verification file must be downloaded from your own Search Console account, so it is not included here.
+5. Use **URL Inspection** to request indexing for your home page. Then use **Sitemaps** to submit `sitemap.xml`.
+6. Optionally add the site at Bing Webmaster Tools (https://www.bing.com/webmasters/) and submit the same sitemap.
+
+Indexing is not guaranteed, even after submission. Keep the verification HTML file in your published repo.
